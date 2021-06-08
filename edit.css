@@ -1,0 +1,161 @@
+/* Global */
+body {
+  margin: 0;
+  color: #051f24;
+  line-height: 1.5;
+}
+
+.back {
+  background-image: url(img/bosco-shots-SlR66yjPsoI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+/* -------------------------------- */
+
+/* Header */
+header {
+  background-color: #03045e;
+}
+/* -------------------------------- */
+
+/* content */
+#c1 {
+  background-color: #fae1dd;
+}
+
+#c2 {
+  background-color: #fec5bb;
+}
+
+#c3 {
+  background-color: #ffd7ba;
+}
+
+#c4 {
+  background-color: #fec5bb;
+}
+/* ---------------------------------- */
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+  padding: 20px 0 20px 0;
+  color: aliceblue;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Odibee Sans";
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 50px;
+  background-color: #f8edeb;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+/* ----------------------------------- */
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.content:nth-child(2) {
+  border-bottom: solid 1px #03045e;
+}
+
+/* Paragraph */
+section p {
+  margin: 0;
+}
+
+div p {
+  font-family: "Limelight";
+}
+p {
+  padding: 0 10px 10px 0;
+}
+/* ---------------------------------- */
+
+/* Image */
+
+.project-item img {
+  margin: 25px 0 0 25px;
+  float: left;
+}
+/* ---------------------------------- */
+
+/* footer */
+
+h4 {
+  font-size: 25px;
+  font-family: "Odibee Sans";
+  margin: 0;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+h5 {
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  font-family: "Limelight";
+  margin: 10px 0 15px 0;
+  text-align: center;
+}
+
+a {
+  background-color: #03045e;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+footer {
+  /* padding-top: 30px; */
+  background-color: #fec89a;
+}
+footer div {
+  border-bottom: none;
+}
+/* ----------------------------------*/
+
+/* Grid */
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+/* --------------------------------- */
+
+/* Responsive */
